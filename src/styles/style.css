@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+club-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+#logo{
+    width: calc(100% - 5vw);
+}
+
+.jumbotron{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    width: inherit;
+    padding: 0 10px 0 10px;
+}
+
+.layout-left{
+    float: left;
+    width: calc(100% - 55vw);
+    margin: 50px 45px 70px 90px;
+}
+
+.layout-right{
+    float: right;
+    width: calc(100% - 50vw);
+    margin: 50px 45px 70px 45px;
+}
+
+
+.content{
+    justify-content: stretch;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    padding: 0 0 5px 0;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.content-body {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 15px 0 0 0;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #82b1ff;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+}
+
+.nav-left{
+    float: left;
+    font-size: 25px;
+    margin-left: 50px;
+    padding:20px 40px 20px 40px;
+
+}
+
+.nav{
+    margin-top: 5px;
+    display: flex;
+}
+
+.nav-right{
+    margin-left: auto;
+    position: relative;
+    margin-right: 100px;
+    top: 0;
+ }
+
+li{
+    list-style: none;
+    float: left;
+    padding:33px 20px 33px 20px;
+
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+
+slider-list {
+    display: flex;
+    margin-right: 20px;
+    overflow-x:scroll;
+    width: 100%;
+}
+
+slider-list::-webkit-scrollbar{
+    display: none;
+}
+
